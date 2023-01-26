@@ -1,0 +1,61 @@
+body {
+  height: 100vh;
+  background-color: black;
+  color: #f6f6f6;
+  padding-left: 16em;
+  padding-top: 13em;
+  align-content: space-between;
+}
+
+.destack {
+  color: aqua;
+  font: bolder;
+}
+
+.text-container {
+  font-family:    monospace;
+}
+
+p{
+  margin-bottom: 3em;
+  font-size: large;
+}
+span:hover {
+  border: 2px solid aqua;
+  background-color: black;
+  padding: 12px;
+  border-radius: 7px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.buttons {
+  color: aqua;
+  text-decoration: none;
+  font-family: monospace, monospace;
+  margin: 0.1% ;
+  margin-left: 3em;
+  font-size: larger;
+  transition-duration: 1s;
+}
+#imagem{
+  left: 46em;
+  top: 12em;
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  box-shadow:0.3em -0.3em aqua;
+
+  border-radius: 10px;
+  animation: myothermove 1s alternate;
+
+
+}
+
+@keyframes myothermove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 12em;
+  }
+}
